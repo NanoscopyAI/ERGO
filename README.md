@@ -1,6 +1,10 @@
-# ERGO: Efficient Recurrent Graph Optimized Emitter Density Estimation in Single Molecule Localization Microscopy
+# ERGO: Efficient Recurrent Graph Optimized Emitter Density Estimation in Single Molecule Localization Microscopy (SMLM)
 
 This repository holds the source accompanying our [IEEE Transactions in Medical Imaging 2020 paper](http://www.cs.sfu.ca/~hamarneh/ecopy/tmi2020.pdf).
+
+ERGO detects and predicts the density in SMLM anisotropic acquisition. High density (green proximate emitters) can cause inaccurate reconstruction (red-framed blue) of the assumed emission location.
+
+![Problem Statement](problemstatement.png)
 
 ### Project organization
 ERGO is a 2-stage software pipeline to identify and predict the density of emissions in single molecule localization microscopy.
